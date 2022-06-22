@@ -1,16 +1,111 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.BACKGROUND {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-image:
+    url("../public/images/layer22.png");
+  background-repeat: no-repeat;
+  background-size:  
+     100% 1012px, 690px 1190px, 690px 1190px, 100% 1580px,
+    100% 1200px, 156px 607px, 460px 877px, 100px 100px;
+  background-position:  
+    left 2000px, right top 3000px, left top 3200px,
+    left 2750px, left 7000px, left 4200px, right 4900px, left 7200px,
+    right bottom;
+  margin: auto;
+  width: 100%;
+  height: 6344px;
+  z-index: 12;
+  background-color: #1b0a32;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
+/* .Layer_4 {
+  background-image: url("../public/images/layer4.png");
+  opacity: 0.471;
+  position: absolute;
+  left: 408px;
+  top: 1674px;
+  width: 2819px;
+  height: 1937px;
+  z-index: 4;
+} */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+  background-color: #1b0a32;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+header {
+  /* background-color: orangered; */
+  height: 190vh;
+  position: relative;
+
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0),
+      rgba(48, 34, 62, 0.682)
+    ),
+    url(../public/images/main-page-gif_high.gif);
+  background-size: cover;
+  color: #fff;
+}
+
+nav {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  /* background-image: linear-gradient(to right, red, blue); */
+
+  /* background-color: green; */
+}
+
+.header-container {
+  align-items: center;
+  width: 1200px;
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.header-container-inner {
+  margin-top: 150px !important;
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 32px;
+  line-height: 1.05;
+}
+
+p {
+  font-size: 30px;
+  line-height: 1.1;
+
+  text-align: center;
+  margin-top: 40px !important;
+}
+
+h2 {
+  font-size: 44px;
+  margin-bottom: 48px;
+}
+
+section {
+  padding: 96px 0;
+  left: 50%;
 }

@@ -1,0 +1,90 @@
+.carousel {
+  width: 70%;
+  margin: 100px auto;
+  max-height: 400px;
+
+  border-radius: 8px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 86px;
+}
+
+.carousel img {
+  
+}
+
+.testimonial-text {
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #e6fcf5;
+  position: absolute;
+  width: 400px;
+  margin-left: 600px;
+  margin-top: -400px !important;
+}
+.testimonial-text1{
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #e6fcf5;
+  position: absolute;
+  width: 400px;
+  margin-left: 50%;
+  margin-top: -30% !important;
+}
+.testimonial-text3{
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #e6fcf5;
+  position: absolute;
+  width: 400px;
+  margin-left: 50%;
+  margin-top: -30% !important;
+}
+.testimonial-text2{
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #e6fcf5;
+  position: absolute;
+  width: 400px;
+  margin-left: 5%;
+  margin-top: -30% !important;
+}
+.testimonial-text4{
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #e6fcf5;
+  position: absolute;
+  width: 400px;
+  margin-left: 5%;
+  margin-top: -30% !important;
+}
+.bike1 {
+
+  width: 100%;
+  height: auto;
+ 
+}
+.yellowback {
+  background-image: url("../../public/images/backyellow1.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  border-top-left-radius: 1200px 700px;
+  border-top-right-radius: 10px 10px;
+}
+.BG_BG {
+  background-color: rgb(1, 11, 26);
+  opacity: 0.2;
+  position: absolute;
+  left: 1px;
+  top: 1080px;
+  width: 1919px;
+  height: 2797px;
+  z-index: 71;
+}
