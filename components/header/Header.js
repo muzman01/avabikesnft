@@ -14,50 +14,37 @@ export default function Header() {
   }, []);
   return (
     <>
-      <header>
+      <header id="home">
         <nav className="container">
           <div>
             <Image src={LOGO} />
           </div>
           <div className="MINT">
             {" "}
-            <button className="mint_button">MINT</button>
+            <span className="mint_button"><button>MINT</button></span>
           </div>
           <div className="Go_To_APP">
-            <button className="go_to_app_button"> Go To App</button>
+            <span className="go_to_app_button"><button> Go To APP</button></span>
           </div>
         </nav>
 
         <div className="header-container">
           <div className="header-container-inner">
             <h1>
-              <Image src={mettTheBikes} />
+              <Image src={mettTheBikes}  data-aos="fade-down"/>
             </h1>
-            <p className="header_text">
+            <p className="header_text" >
               Paketlerini hızlıca teslim et,<br></br>
               <span>ödülleri toplamaya hemen başla!</span>
             </p>
-            <div className="scroll">
+            <div className="scroll" >
               <p>SCROLL</p>
               <a href="#bikes" className="arrow"></a>
             </div>
           </div>
         </div>
       </header>
-      {/* <section>
-      <div class="container">
-        <h2>Some random heading</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quas,
-          minus beatae sapiente debitis voluptatum, laudantium veritatis impedit
-          corrupti officia recusandae fugit, voluptates iure velit! Ad suscipit
-          vitae nobis optio. Lorem ipsum dolor sit, amet consectetur adipisicing
-          elit. Reiciendis sequi quam earum voluptas eum laboriosam at
-          cupiditate debitis in odio adipisci repudiandae enim ea, sint quos
-          similique! Debitis, facilis dolore?
-        </p>
-      </div>
-    </section> */}
+     
     </>
   );
 }

@@ -1,33 +1,25 @@
+@font-face {
+  font-family: kghappy;
+  src: url("../public/fonts/KGHAPPY.ttf");
+}
 .BACKGROUND {
   position: absolute;
   align-items: center;
   justify-content: center;
-  background-image:
-    url("../public/images/layer22.png");
+  background-image: url("../public/images/layer22.png"),
+    url("../public/images/layer23.png"), url("../public/images/ltop.png"),
+    url("../public/images/ltop.png"), url("../public/images/layerrigth2.png");
   background-repeat: no-repeat;
-  background-size:  
-     100% 1012px, 690px 1190px, 690px 1190px, 100% 1580px,
-    100% 1200px, 156px 607px, 460px 877px, 100px 100px;
-  background-position:  
-    left 2000px, right top 3000px, left top 3200px,
-    left 2750px, left 7000px, left 4200px, right 4900px, left 7200px,
-    right bottom;
+  background-size: 100% 1012px, 100% 1012px, 100% 1012px, 100% 1012px;
+  background-position: left 2000px, left 3400px, right 1400px, right 800px,
+    right 2400px;
   margin: auto;
   width: 100%;
-  height: 6344px;
+  height: 5344px;
   z-index: 12;
   background-color: #1b0a32;
 }
-/* .Layer_4 {
-  background-image: url("../public/images/layer4.png");
-  opacity: 0.471;
-  position: absolute;
-  left: 408px;
-  top: 1674px;
-  width: 2819px;
-  height: 1937px;
-  z-index: 4;
-} */
+
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +27,7 @@
 }
 
 html {
-  font-family: "Rubik", sans-serif;
+  font-family: kghappy;
   background-color: #1b0a32;
 }
 
@@ -46,14 +38,14 @@ html {
 
 header {
   /* background-color: orangered; */
-  height: 110vh;
+  height: 100vh;
   position: relative;
 
   background-image: linear-gradient(
       rgba(34, 34, 34, 0),
       rgba(48, 34, 62, 0.682)
     ),
-    url(../public/images/main-page-gif_high.gif);
+    url(../public/images/main-page-gif_high.png);
   background-size: cover;
   color: #fff;
 }
@@ -64,9 +56,6 @@ nav {
   display: flex;
   justify-content: space-between;
   padding-top: 32px;
-  /* background-image: linear-gradient(to right, red, blue); */
-
-  /* background-color: green; */
 }
 
 .header-container {
@@ -108,4 +97,101 @@ h2 {
 section {
   padding: 96px 0;
   left: 50%;
+}
+@media (max-width: 1000px) {
+  header {
+    /* background-color: orangered; */
+    height: 100vh;
+    position: relative;
+
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/main-page-gif_high.png);
+
+    color: #fff;
+    object-fit: cover;
+    width: 100% !important;
+  }
+  .header-container {
+    align-items: center;
+    width: 100% !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  nav {
+    font-size: 20px;
+
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+  }
+  .container {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+  .header-container {
+    align-items: center;
+    width: 800px !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 700px) {
+  header {
+    /* background-color: orangered; */
+    height: 100vh;
+    position: relative;
+
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/main-page-gif_high.png);
+    object-fit: cover;
+    color: #fff;
+    width: 100% !important;
+  }
+  .header-container {
+    align-items: center;
+    width: 100% !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  nav {
+    font-size: 20px;
+
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+  }
+  .container {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+  .header-container {
+    align-items: center;
+    width: 800px !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
 }

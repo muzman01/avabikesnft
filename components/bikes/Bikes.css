@@ -1,3 +1,11 @@
+@font-face {
+  font-family: KGHAPPYSolid;
+  src: url("../../public/fonts/KGHAPPYSolid.ttf");
+}
+@font-face {
+  font-family: KGMissKindergarten;
+  src: url("../../public/fonts/KGMissKindergarten.ttf");
+}
 .carousel {
   width: 70%;
   margin: 100px auto;
@@ -12,11 +20,10 @@
 }
 
 .carousel img {
-  
 }
 
 .testimonial-text {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
   color: #e6fcf5;
@@ -25,51 +32,53 @@
   margin-left: 600px;
   margin-top: -400px !important;
 }
-.testimonial-text1{
-  font-size: 23px;
+.testimonial-text1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #e6fcf5;
+  position: absolute;
+  font-family: "KGMissKindergarten";
+  width: 400px;
+  margin-left: 50%;
+  margin-top: -25% !important;
+}
+.testimonial-text3 {
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
   color: #e6fcf5;
   position: absolute;
   width: 400px;
+  font-family: "KGMissKindergarten";
   margin-left: 50%;
-  margin-top: -30% !important;
+  margin-top: -26% !important;
 }
-.testimonial-text3{
-  font-size: 23px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #e6fcf5;
-  position: absolute;
-  width: 400px;
-  margin-left: 50%;
-  margin-top: -30% !important;
-}
-.testimonial-text2{
-  font-size: 23px;
+.testimonial-text2 {
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
   color: #e6fcf5;
   position: absolute;
   width: 400px;
   margin-left: 5%;
-  margin-top: -30% !important;
+  font-family: "KGMissKindergarten";
+  margin-top: -25% !important;
 }
-.testimonial-text4{
+.testimonial-text4 {
   font-size: 23px;
   font-weight: 500;
   line-height: 1.5;
   color: #e6fcf5;
   position: absolute;
   width: 400px;
+  font-family: "KGMissKindergarten";
   margin-left: 5%;
-  margin-top: -30% !important;
+  margin-top: -28% !important;
 }
 .bike1 {
-
   width: 100%;
   height: auto;
- 
 }
 .yellowback {
   background-image: url("../../public/images/backyellow1.png");
@@ -87,4 +96,282 @@
   width: 1919px;
   height: 2797px;
   z-index: 71;
+}
+
+.biketitle {
+  font-family: "KGHAPPYSolid";
+  color: white;
+  margin-top: -300px;
+  margin-left: 550px;
+  position: absolute;
+}
+.biketitle1 {
+  font-family: "KGHAPPYSolid";
+  color: white;
+  margin-top: -300px;
+  margin-left: 100px;
+  position: absolute;
+}
+.biketitle2 {
+  font-family: "KGHAPPYSolid";
+  color: white;
+  margin-top: -300px;
+  margin-left: 500px;
+  position: absolute;
+}
+.biketitle3 {
+  font-family: "KGHAPPYSolid";
+  color: white;
+  margin-top: -300px;
+  margin-left: 80px;
+  position: absolute;
+}
+@media (max-width: 1200px) {
+  .testimonial-text1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #e6fcf5;
+    position: absolute;
+    font-family: "KGMissKindergarten";
+    width: 300px;
+    margin-left: 50%;
+    margin-top: -30% !important;
+  }
+  .testimonial-text3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #e6fcf5;
+    position: absolute;
+    width: 300px;
+    font-family: "KGMissKindergarten";
+    margin-left: 50%;
+    margin-top: -30% !important;
+  }
+  .testimonial-text2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #e6fcf5;
+    position: absolute;
+    width: 300px;
+    margin-left: 5%;
+    font-family: "KGMissKindergarten";
+    margin-top: -30% !important;
+  }
+  .testimonial-text4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #e6fcf5;
+    position: absolute;
+    width: 300px;
+    font-family: "KGMissKindergarten";
+    margin-left: 5%;
+    margin-top: -30% !important;
+  }
+  .biketitle {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 26px;
+    margin-top: -240px;
+    margin-left: 400px;
+    position: absolute;
+  }
+  .biketitle1 {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 26px;
+    margin-top: -220px;
+    margin-left: 55px;
+    position: absolute;
+  }
+  .biketitle2 {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    margin-top: -230px;
+    font-size: 26px;
+    margin-left: 350px;
+    position: absolute;
+  }
+  .biketitle3 {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 26px;
+    margin-top: -230px;
+    margin-left: 55px;
+    position: absolute;
+  }
+}
+@media (max-width: 1000px) {
+  .testimonial-text1 {
+    font-size: 14px;
+
+    line-height: 1.5;
+    color: #e6fcf5;
+    position: absolute;
+    font-family: "KGMissKindergarten";
+    width: 250px;
+    margin-left: 50%;
+    margin-top: -30% !important;
+  }
+
+  .testimonial-text3 {
+    font-size: 12px;
+
+    color: #e6fcf5;
+    position: absolute;
+    width: 250px;
+    font-family: "KGMissKindergarten";
+    margin-left: 50%;
+    margin-top: -30% !important;
+  }
+  .testimonial-text2 {
+    font-size: 12px;
+
+    color: #e6fcf5;
+    position: absolute;
+    width: 250px;
+    margin-left: 5%;
+    font-family: "KGMissKindergarten";
+    margin-top: -30% !important;
+  }
+  .testimonial-text4 {
+    font-size: 12px;
+
+    color: #e6fcf5;
+    position: absolute;
+    width: 250px;
+    font-family: "KGMissKindergarten";
+    margin-left: 5%;
+    margin-top: -30% !important;
+  }
+  .biketitle {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 20px;
+    margin-top: -180px;
+    margin-left: 300px;
+    position: absolute;
+  }
+  .biketitle1 {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 20px;
+    margin-top: -180px;
+    margin-left: 55px;
+    position: absolute;
+  }
+  .biketitle2 {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    margin-top: -170px;
+    font-size: 18px;
+    width: 200px;
+    margin-left: 300px;
+    position: absolute;
+  }
+  .biketitle3 {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 20px;
+    margin-top: -175px;
+    margin-left: 55px;
+    position: absolute;
+  }
+}
+@media (max-width: 700px) {
+  .mobilboyut {
+    color: white;
+  }
+  .carousel {
+    margin-left: -100px;
+  }
+  .testimonial-text1 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e6fcf5;
+    position: absolute;
+    font-family: "KGMissKindergarten";
+    width: 250px;
+    margin-left: 100%;
+    margin-top: -50% !important;
+  }
+  .bike1 img {
+    content: url("../../public/images/bike1.png");
+  }
+  .mbbike1 img{
+    content: url("../../public/images/mbbike2.png");
+  }
+  .mbbike2 img{
+    content: url("../../public/images/mbbike3.png");
+  }
+  .mbbike3 img{
+    content: url("../../public/images/mbbike4.png");
+  }
+  .testimonial-text3 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e6fcf5;
+    position: absolute;
+    font-family: "KGMissKindergarten";
+    width: 250px;
+    margin-left: 110%;
+    margin-top: -50% !important;
+  }
+  .testimonial-text2 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e6fcf5;
+    position: absolute;
+    font-family: "KGMissKindergarten";
+    width: 250px;
+    margin-left: 110%;
+    margin-top: -50% !important;
+  }
+  .testimonial-text4 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e6fcf5;
+    position: absolute;
+    font-family: "KGMissKindergarten";
+    width: 250px;
+    margin-left: 110%;
+    margin-top: -50% !important;
+  }
+  .biketitle {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 20px;
+    margin-top: -220px;
+    margin-left: 420px;
+    position: absolute;
+  }
+  .biketitle1 {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 20px;
+    margin-top: -220px;
+    margin-left: 420px;
+    position: absolute;
+    width: 100%;
+  }
+  .biketitle2 {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 20px;
+    margin-top: -220px;
+    margin-left: 420px;
+    position: absolute;
+  }
+  .biketitle3 {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 20px;
+    margin-top: -220px;
+    margin-left: 420px;
+    position: absolute;
+    width: 100%;
+  }
 }
