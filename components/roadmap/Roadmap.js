@@ -24,7 +24,7 @@ function Roadmap() {
             <h3>PHASE 1</h3>
             <ul>
               <li data-aos="fade-up-left" data-aos-duration="1000">Mint NFT</li>
-              <li data-aos="fade-up-left" data-aos-duration="1000">NFT'lerin marketplace de listelenmesi</li>
+              <li data-aos="fade-up-left" data-aos-duration="1000">NFT&apos;lerin marketplace de listelenmesi</li>
               <li data-aos="fade-up-left" data-aos-duration="1000">$BIKE token için likidite ekleme</li>
               <li data-aos="fade-up-left" data-aos-duration="1000">Game Launch</li>
             </ul>
@@ -40,7 +40,7 @@ function Roadmap() {
             <ul>
               <li data-aos="fade-up-left" data-aos-duration="1000">Mint extra NFT</li>
               <li data-aos="fade-up-left" data-aos-duration="1000">Benzin istasyonunda staking</li>
-              <li data-aos="fade-up-left" data-aos-duration="1000">Ekstra NFT'ler için geliştirilebilir sistem</li>
+              <li data-aos="fade-up-left" data-aos-duration="1000">Ekstra NFT&apos;ler için geliştirilebilir sistem</li>
               <li data-aos="fade-up-left" data-aos-duration="1000">Some quest and airdrops</li>
             </ul>
           </div>

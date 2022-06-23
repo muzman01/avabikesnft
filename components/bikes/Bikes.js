@@ -44,7 +44,7 @@ function Bikes() {
           >
             <h1 className="biketitle1">Topluluk Odaklı</h1>
             <p className="testimonial-text2">
-              Yönetim token'ın gelmesi ile birliktei holderların yönetim de söz
+              Yönetim token&apos;ın gelmesi ile birliktei holderların yönetim de söz
               sahibi olacak projenin geleceği ile ilgili kararları holderların
               verdiği oylar belirleyecek
             </p>
@@ -64,10 +64,10 @@ function Bikes() {
             data-aos="zoom-in-left"
             data-aos-duration="1000"
           >
-            <h1 className="biketitle2">Ekstra NFT'ler</h1>
+            <h1 className="biketitle2">Ekstra NFT&apos;ler</h1>
             <p className="testimonial-text3">
-              Motorlarınıza Ekstra NFT'ler alarak daha kısa süredei daha fazla
-              token kazanabilirsiniz. Ve bu NFT'leri 2.el pazarında alıp
+              Motorlarınıza Ekstra NFT&apos;ler alarak daha kısa süredei daha fazla
+              token kazanabilirsiniz. Ve bu NFT&apos;leri 2.el pazarında alıp
               satabilirsiniz.
             </p>
           </div>
