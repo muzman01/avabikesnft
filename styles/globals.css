@@ -194,6 +194,11 @@ section {
 
     transform: translate(-50%, -50%);
   }
+  .MINT{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 57%;
+  }
 }
 @media (max-width: 415px) {
   header {
