@@ -195,3 +195,62 @@ section {
     transform: translate(-50%, -50%);
   }
 }
+@media (max-width: 415px) {
+  header {
+    /* background-color: orangered; */
+    height: 100vh;
+    position: relative;
+
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/main-page-gif_high.png);
+    object-fit: contain;
+    color: #fff;
+    width: 100% !important;
+    background-attachment: fixed;
+  }
+  .header-container {
+    align-items: center;
+    width: 80% !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  nav {
+    font-size: 20px;
+
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+  }
+  .container {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+  .header-container {
+    align-items: center;
+    width: 800px !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  .header-container-inner {
+    margin-top: 150px !important;
+    width: 40%;
+    margin: auto;
+  }
+  .MINT{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 57%;
+  }
+}

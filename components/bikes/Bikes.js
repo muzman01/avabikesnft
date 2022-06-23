@@ -14,7 +14,7 @@ function Bikes() {
   return (
     <section id="bikes" className="container">
       <div className="carousel">
-        <div className="bike1">
+        <div className="bike1 mbbike ">
           <Image src={bik1} width={1200} height={600} data-aos="zoom-in-down" />
           <div
             className="testimonial"
@@ -30,7 +30,7 @@ function Bikes() {
         </div>
       </div>
       <div className="carousel">
-        <div className="bike1 mbbike1">
+        <div className="bike1 mbbike1 marginbike">
           <Image
             src={bike2}
             width={1200}
@@ -44,15 +44,15 @@ function Bikes() {
           >
             <h1 className="biketitle1">Topluluk Odaklı</h1>
             <p className="testimonial-text2">
-              Yönetim token&apos;ın gelmesi ile birliktei holderların yönetim de söz
-              sahibi olacak projenin geleceği ile ilgili kararları holderların
-              verdiği oylar belirleyecek
+              Yönetim token&apos;ın gelmesi ile birliktei holderların yönetim de
+              söz sahibi olacak projenin geleceği ile ilgili kararları
+              holderların verdiği oylar belirleyecek
             </p>
           </div>
         </div>
       </div>
       <div className="carousel">
-        <div className="bike1 mbbike2">
+        <div className="bike1 mbbike2 marginbike">
           <Image
             src={bike3}
             width={1200}
@@ -66,15 +66,15 @@ function Bikes() {
           >
             <h1 className="biketitle2">Ekstra NFT&apos;ler</h1>
             <p className="testimonial-text3">
-              Motorlarınıza Ekstra NFT&apos;ler alarak daha kısa süredei daha fazla
-              token kazanabilirsiniz. Ve bu NFT&apos;leri 2.el pazarında alıp
-              satabilirsiniz.
+              Motorlarınıza Ekstra NFT&apos;ler alarak daha kısa süredei daha
+              fazla token kazanabilirsiniz. Ve bu NFT&apos;leri 2.el pazarında
+              alıp satabilirsiniz.
             </p>
           </div>
         </div>
       </div>
       <div className="carousel">
-        <div className="bike1 mbbike3">
+        <div className="bike1 mbbike3 marginbike">
           <Image
             src={bike4}
             width={1200}

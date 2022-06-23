@@ -19,8 +19,6 @@
   gap: 86px;
 }
 
-.carousel img {
-}
 
 .testimonial-text {
   font-size: 20px;
@@ -371,6 +369,124 @@
     font-size: 20px;
     margin-top: -220px;
     margin-left: 420px;
+    position: absolute;
+    width: 100%;
+  }
+}
+@media (max-width: 415px) {
+  .mobilboyut {
+    color: white;
+  }
+  .carousel {
+    margin-left: -100px;
+  }
+  .marginbike{
+    margin-top: 200px;
+  }
+  .testimonial-text1 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e6fcf5;
+    position: absolute;
+    font-family: "KGMissKindergarten";
+    width: 250px;
+    margin-left: 60%;
+    margin-top: 60px !important;
+  }
+  .mbbike img {
+    content: url("../../public/images/bike1.png");
+    width: 800px !important;
+    height: 300px !important;
+    
+  }
+  .mbbike1 img{
+    content: url("../../public/images/mbbike2.png");
+    
+  }
+  .mbbike2 img{
+    content: url("../../public/images/mbbike3.png");
+  }
+  .mbbike3 img{
+    content: url("../../public/images/mbbike4.png");
+  }
+  .mbbike{
+    margin-left: 150px;
+    width: 500px !important;
+
+  }
+  .mbbike1{
+    margin-left: 150px;
+
+  }
+  .mbbike2{
+    margin-left: 150px;
+
+  }
+  .mbbike3{
+    margin-left: 150px;
+    width: 300px;
+  }
+  .testimonial-text3 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e6fcf5;
+    position: absolute;
+    font-family: "KGMissKindergarten";
+    width: 250px;
+    margin-left: 60%;
+    margin-top: 60px !important;
+  }
+  .testimonial-text2 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e6fcf5;
+    position: absolute;
+    font-family: "KGMissKindergarten";
+    width: 250px;
+    margin-left: 60%;
+    margin-top: 60px !important;
+  }
+  .testimonial-text4 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e6fcf5;
+    position: absolute;
+    font-family: "KGMissKindergarten";
+    width: 250px;
+    margin-left: 60%;
+    margin-top: 60px !important;
+  }
+  .biketitle {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 20px;
+    margin-top: -50px;
+    margin-left: 200px;
+    position: absolute;
+  }
+  .biketitle1 {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 20px;
+    margin-top: -120px;
+    margin-left: 200px;
+    position: absolute;
+    width: 100%;
+  }
+  .biketitle2 {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+    position: absolute;
+  }
+  .biketitle3 {
+    font-family: "KGHAPPYSolid";
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
     position: absolute;
     width: 100%;
   }
