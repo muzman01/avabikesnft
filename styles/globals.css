@@ -194,13 +194,25 @@ section {
 
     transform: translate(-50%, -50%);
   }
-  .MINT{
+  .MINT {
     position: absolute;
     margin-top: 80px;
     margin-left: 57%;
   }
 }
 @media (max-width: 415px) {
+  .BACKGROUND {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-image: none;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 100%;
+    height: 5344px;
+    z-index: 12;
+    background-color: #1b0a32;
+  }
   header {
     /* background-color: orangered; */
     height: 100vh;
@@ -253,7 +265,7 @@ section {
     width: 40%;
     margin: auto;
   }
-  .MINT{
+  .MINT {
     position: absolute;
     margin-top: 80px;
     margin-left: 57%;

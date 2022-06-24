@@ -258,3 +258,87 @@
     font-family: "KGHAPPYSolid";
   }
 }
+@media (max-width: 415px) {
+  .roadmap1 {
+    background-image: none;
+  }
+  .mobilroad1 {
+    width: 400px;
+    height: 400px;
+
+    margin: auto;
+  }
+  .roadmap2 {
+    background-image: none;
+    width: 400px;
+    height: 100%;
+    margin-top: -50px !important;
+  }
+  .roadmap3 {
+    background-image: none;
+    width: 400px;
+    height: 100%;
+    margin-top: -50px !important;
+  }
+  .roadmap1 h3 {
+    position: absolute;
+    color: white;
+    margin-left: 10px;
+    margin-top: -290px;
+    font-family: "KGHAPPYSolid";
+  }
+  .roadmap1 ul {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    width: 250px;
+    margin-left: 150px;
+    margin-top: -380px;
+    font-family: "KGHAPPYSolid";
+  }
+  .roadmap2 h3 {
+    position: absolute;
+    color: white;
+    margin-left: 10px;
+    margin-top: -290px;
+    font-family: "KGHAPPYSolid";
+  }
+  .roadmap2 ul {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    width: 250px;
+    margin-left: 150px;
+    margin-top: -380px;
+    font-family: "KGHAPPYSolid";
+  }
+  .roadmap3 h3 {
+    position: absolute;
+    color: white;
+    margin-left: 10px;
+    margin-top: -340px;
+    font-family: "KGHAPPYSolid";
+  }
+  .roadmap3 ul {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    width: 250px;
+    margin-left: 150px;
+    margin-top: -380px;
+    font-family: "KGHAPPYSolid";
+  }
+  .roadmap2 img {
+    margin-left: 32px !important;
+  }
+  .roadmap3 img {
+    margin-left: 32px !important;
+  }
+  .title {
+    color: white;
+    margin: auto;
+    margin-left: 30% !important;
+    margin-bottom: 50px;
+    font-family: "KGHAPPYSolid";
+  }
+}
