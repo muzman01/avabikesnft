@@ -41,7 +41,7 @@ export default function Header() {
               Paketlerini hızlıca teslim et,<br></br>
               <span>ödülleri toplamaya hemen başla!</span>
             </p>
-            <a href="#bike" style={{ textDecoration: "none",color:"white" }}>
+            <a href="#bikes" style={{ textDecoration: "none",color:"white" }}>
               <div className="scroll">
                 <p>SCROLL</p>
                 <div className="down-arrow"></div>
