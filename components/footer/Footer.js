@@ -42,13 +42,25 @@ function Footer() {
       />
       <div className="d-flex justify-content-around mt-5">
         <div className="faqlink" data-aos="fade-right">
-          <h1 className="faq" onClick={() => setModalShow(true)} style={{cursor:"pointer"}} >
+          <h1
+            className="faq"
+            onClick={() => setModalShow(true)}
+            style={{ cursor: "pointer" }}
+          >
             FAQ
           </h1>
-          <Image src={tw} height={40} width={40} />
-          <Image src={dc} height={40} width={40} />
-          <Image src={tl} height={40} width={40} />
-          <Image src={yt} height={40} width={40} />
+          <a href="#">
+            <Image src={tw} height={40} width={40} />
+          </a>
+          <a href="#">
+            <Image src={dc} height={40} width={40} />
+          </a>
+          <a href="#">
+            <Image src={tl} height={40} width={40} />
+          </a>
+          <a href="#">
+            <Image src={yt} height={40} width={40} />
+          </a>
         </div>
 
         <div className="Go_To_APP" data-aos="fade-left">

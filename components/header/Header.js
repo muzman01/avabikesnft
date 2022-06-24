@@ -17,8 +17,11 @@ export default function Header() {
       <header id="home">
         <nav className="container">
           <div>
-            <Image src={LOGO} />
+            <a href="#">
+              <Image src={LOGO} />
+            </a>
           </div>
+
           <div className="MINT">
             {" "}
             <span className="mint_button">
@@ -41,7 +44,7 @@ export default function Header() {
               Paketlerini hızlıca teslim et,<br></br>
               <span>ödülleri toplamaya hemen başla!</span>
             </p>
-            <a href="#bikes" style={{ textDecoration: "none",color:"white" }}>
+            <a href="#bikes" style={{ textDecoration: "none", color: "white" }}>
               <div className="scroll">
                 <p>SCROLL</p>
                 <div className="down-arrow"></div>
