@@ -21,30 +21,35 @@ export default function Header() {
           </div>
           <div className="MINT">
             {" "}
-            <span className="mint_button"><button>MINT</button></span>
+            <span className="mint_button">
+              <button>MINT</button>
+            </span>
           </div>
           <div className="Go_To_APP">
-            <span className="go_to_app_button"><button> Go To APP</button></span>
+            <span className="go_to_app_button">
+              <button> Go To APP</button>
+            </span>
           </div>
         </nav>
 
         <div className="header-container">
           <div className="header-container-inner">
             <h1>
-              <Image src={mettTheBikes}  data-aos="fade-down"/>
+              <Image src={mettTheBikes} data-aos="fade-down" />
             </h1>
-            <p className="header_text" >
+            <p className="header_text">
               Paketlerini hızlıca teslim et,<br></br>
               <span>ödülleri toplamaya hemen başla!</span>
             </p>
-            <div className="scroll" >
-              <p>SCROLL</p>
-              <a href="#bikes" className="arrow"></a>
-            </div>
+            <a href="#bike" style={{ textDecoration: "none",color:"white" }}>
+              <div className="scroll">
+                <p>SCROLL</p>
+                <div className="down-arrow"></div>
+              </div>
+            </a>
           </div>
         </div>
       </header>
-     
     </>
   );
 }
