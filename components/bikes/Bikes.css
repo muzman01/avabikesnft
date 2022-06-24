@@ -393,16 +393,16 @@
     margin-top: 40px !important;
   }
   .mbbike img {
-    content: url("../../public/images/bike1.png");
+    content: url("../../public/images/bikesmall1.png");
   }
   .mbbike1 img {
-    content: url("../../public/images/mbbike2.png");
+    content: url("../../public/images/bikesmall2.png");
   }
   .mbbike2 img {
-    content: url("../../public/images/mbbike3.png");
+    content: url("../../public/images/bikesmall3.png");
   }
   .mbbike3 img {
-    content: url("../../public/images/mbbike4.png");
+    content: url("../../public/images/bikesmall4.png");
   }
   .mbbike {
     margin-left: 150px;

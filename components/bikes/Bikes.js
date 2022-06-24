@@ -15,7 +15,7 @@ function Bikes() {
     <section id="bikes" className="container">
       <div className="carousel">
         <div className="bike1 mbbike ">
-          <Image src={bik1} width={1200} height={600} data-aos="zoom-in-down" />
+          <Image src={bik1} width={1200} height={600} />
           <div
             className="testimonial"
             data-aos="zoom-in-left"
@@ -35,7 +35,7 @@ function Bikes() {
             src={bike2}
             width={1200}
             height={600}
-            data-aos="zoom-in-down"
+        
           />
           <div
             className="testimonial"
@@ -57,7 +57,7 @@ function Bikes() {
             src={bike3}
             width={1200}
             height={600}
-            data-aos="zoom-in-down"
+           
           />
           <div
             className="testimonial"
@@ -79,7 +79,7 @@ function Bikes() {
             src={bike4}
             width={1200}
             height={600}
-            data-aos="zoom-in-down"
+         
           />
           <div
             className="testimonial"
