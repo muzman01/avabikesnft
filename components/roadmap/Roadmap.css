@@ -8,28 +8,31 @@
   background-position: 150px 10px;
 }
 .roadmap1 h3 {
+  font-weight: 400;
   position: absolute;
   color: white;
-  margin-left: 520px;
-  margin-top: -180px;
+  margin-left: 510px;
+  margin-top: -160px;
   font-family: "KGHAPPYSolid";
+  
 }
 .roadmap1 ul {
+  list-style-position: inside;
   position: absolute;
   color: white;
-  font-size: 18px;
-  margin-left: 650px;
+  font-size: 20px;
+  margin-left: 620px;
   margin-top: -250px;
   font-family: "KGHAPPYSolid";
 }
 .roadmap1 ul li {
-  padding: 5px;
+  padding: 10px;
 }
 .roadmap2 {
   background-image: url("../../public/images/rmback2.png");
   background-repeat: no-repeat;
   background-position: 150px 40px;
-  margin-top: 50px !important;
+  margin-top: 40px !important;
 }
 .roadmap2 img {
   margin-left: -20px !important;
@@ -37,51 +40,56 @@
 .roadmap2 h3 {
   position: absolute;
   color: white;
-  margin-left: 520px;
-  margin-top: -180px;
+  margin-left: 500px;
+  margin-top: -170px;
+  font-size: 26px;
   font-family: "KGHAPPYSolid";
+  font-weight: 400;
 }
 .roadmap2 ul {
   position: absolute;
   color: white;
-  font-size: 18px;
-  margin-left: 670px;
+  font-size: 20px;
+  margin-left: 650px;
   margin-top: -250px;
   font-family: "KGHAPPYSolid";
 }
 .roadmap2 ul li {
-  padding: 5px;
+  padding: 10px;
 }
 .roadmap3 {
   background-image: url("../../public/images/rmback3.png");
   background-repeat: no-repeat;
   background-position: 150px 30px;
-  margin-top: 50px !important;
+  margin-top: 70px !important;
 }
 .roadmap3 h3 {
+  font-weight: 400;
   position: absolute;
   color: white;
-  margin-left: 550px;
+  margin-left: 520px;
   font-family: "KGHAPPYSolid";
   margin-top: -180px;
+  font-size: 26px;
 }
 .roadmap3 ul {
   position: absolute;
   color: white;
   font-family: "KGHAPPYSolid";
-  font-size: 20px;
-  margin-left: 700px;
-  margin-top: -220px;
+  font-size: 23px;
+  margin-left: 670px;
+  margin-top: -245px;
 }
 .roadmap3 ul li {
-  padding: 5px;
+  padding: 10px;
 }
 .title {
   color: white;
   margin: auto;
-  margin-left: 40%;
+  margin-left: 35% !important;
   margin-bottom: 50px;
   font-family: "KGHAPPYSolid";
+  font-size: 60px;
 }
 
 @media (max-width: 1200px) {

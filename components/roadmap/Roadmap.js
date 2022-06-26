@@ -12,7 +12,7 @@ function Roadmap() {
     AOS.refresh();
   }, []);
   return (
-    <section className="container">
+    <section className="containerroad">
       <h1 className="title">ROAD MAP</h1>
       <div className="row">
         <div className="roadmap1">

@@ -16,7 +16,7 @@ export default function Header() {
     <>
       <header id="home">
         <nav className="container">
-          <div>
+          <div className="logo">
             <a href="#">
               <Image src={LOGO} />
             </a>
@@ -25,7 +25,7 @@ export default function Header() {
           <div className="MINT">
             {" "}
             <span className="mint_button">
-              <button>MINT</button>
+              <button href="#">MINT</button>
             </span>
           </div>
           <div className="Go_To_APP">
@@ -38,7 +38,7 @@ export default function Header() {
         <div className="header-container">
           <div className="header-container-inner">
             <h1>
-              <Image src={mettTheBikes} data-aos="fade-down" />
+              <Image src={mettTheBikes}  width={1500} height={400} />
             </h1>
             <p className="header_text">
               Paketlerini hızlıca teslim et,<br></br>

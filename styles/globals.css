@@ -35,19 +35,122 @@ html {
   margin: 0 auto;
   width: 1200px;
 }
-
+.containerb {
+  margin: 0 auto;
+  width: 100%;
+}
+.containerroad {
+  width: 1200px;
+  margin: 0 auto;
+}
+.logo {
+  margin-left: -50px;
+}
+.MINT {
+  margin-left: 100px;
+}
+.Go_To_APP {
+  margin-right: -50px !important;
+}
 header {
   /* background-color: orangered; */
   height: 100vh;
-  position: relative;
-
-  background-image: linear-gradient(
-      rgba(34, 34, 34, 0),
-      rgba(48, 34, 62, 0.682)
-    ),
-    url(../public/images/main-page-gif_high.png);
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
   color: #fff;
+  animation: animate 6s ease-in-out infinite;
+}
+
+
+@keyframes animate {
+  0%,
+  100% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/1.jpg);
+    height: 100vh;
+  }
+  9% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/2.jpg);
+  }
+  18% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/3.jpg);
+  }
+  27% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/4.jpg);
+  }
+  36% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/5.jpg);
+  }
+  45% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/6.jpg);
+  }
+  54% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/7.jpg);
+  }
+  63% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/8.jpg);
+  }
+  72% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/9.jpg);
+  }
+  81% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/10.jpg);
+  }
+  90% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/11.jpg);
+  }
+  99% {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/12.jpg);
+  }
 }
 
 nav {
@@ -180,6 +283,7 @@ section {
     justify-content: space-between;
     padding-top: 32px;
   }
+
   .container {
     margin: 0 auto;
     width: 100% !important;
