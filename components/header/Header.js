@@ -37,9 +37,9 @@ export default function Header() {
 
         <div className="header-container">
           <div className="header-container-inner">
-            <h1>
+         
               <Image src={mettTheBikes}  width={1500} height={400} />
-            </h1>
+       
             <p className="header_text">
               Paketlerini hızlıca teslim et,<br></br>
               <span>ödülleri toplamaya hemen başla!</span>

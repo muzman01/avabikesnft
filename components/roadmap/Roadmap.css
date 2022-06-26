@@ -269,6 +269,10 @@
   .roadmap1 {
     background-image: none;
   }
+  .roadmap1 img {
+   height: 250px !important;
+   margin-left: 10px !important;
+  }
   .mobilroad1 {
     width: 400px;
     height: 400px;
@@ -281,11 +285,18 @@
     height: 100%;
     margin-top: -50px !important;
   }
+  .roadmap2 img{
+    height: 250px !important;
+   margin-left: -20px !important;
+  }
   .roadmap3 {
     background-image: none;
     width: 400px;
     height: 100%;
     margin-top: -50px !important;
+  }
+  .roadmap3 img{
+    height: 220px !important;
   }
   .roadmap1 h3 {
     position: absolute;
@@ -344,8 +355,12 @@
   .title {
     color: white;
     margin: auto;
-    margin-left: 30% !important;
+    margin-left: -50px !important;
     margin-bottom: 50px;
+
     font-family: "KGHAPPYSolid";
+  }
+  .containerroad h1{
+    margin-left: -35px !important;
   }
 }

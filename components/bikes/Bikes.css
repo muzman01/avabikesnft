@@ -170,6 +170,54 @@
   font-size: 50px;
 }
 @media (max-width: 1200px) {
+  .carousel {
+    width: 100%;
+    margin: 20px auto;
+    max-height: 400px;
+  
+    border-radius: 8px;
+    position: relative;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    gap: 86px;
+  }
+  .carousel1 {
+    width: 100%;
+    margin: 110px auto;
+    max-height: 400px;
+    margin-left: 5%;
+    border-radius: 8px;
+    position: relative;
+  
+    display: flex;
+    align-items: center;
+    gap: 86px;
+  }
+  .carousel2 {
+    width: 100%;
+    margin: 30px auto;
+    max-height: 400px;
+    margin-left: 5%;
+    border-radius: 8px;
+    position: relative;
+  
+    display: flex;
+    align-items: center;
+    gap: 86px;
+  }
+  .carousel3 {
+    width: 100%;
+    margin: 120px auto;
+    max-height: 400px;
+  
+    border-radius: 8px;
+    position: relative;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    gap: 86px;
+  }
   .testimonial-text1 {
     font-size: 18px;
     font-weight: 500;
@@ -435,20 +483,24 @@
     position: absolute;
     font-family: "KGMissKindergarten";
     width: 250px;
-    margin-left: 40%;
-    margin-top: 40px !important;
+    margin-left: 10%;
+    margin-top: 10px !important;
   }
   .mbbike img {
     content: url("../../public/images/bikesmall1.png");
+    margin-left: -40px !important;
   }
   .mbbike1 img {
     content: url("../../public/images/bikesmall2.png");
+    margin-left: 10px !important;
   }
   .mbbike2 img {
     content: url("../../public/images/bikesmall3.png");
+     margin-left: 10px !important;
   }
   .mbbike3 img {
     content: url("../../public/images/bikesmall4.png");
+    margin-left: 10px !important;
   }
   .mbbike {
     margin-left: 150px;
@@ -470,8 +522,8 @@
     position: absolute;
     font-family: "KGMissKindergarten";
     width: 250px;
-    margin-left: 40%;
-    margin-top: 40px !important;
+    margin-left: -40%;
+    margin-top: 10px !important;
   }
   .testimonial-text2 {
     font-size: 16px;
@@ -480,8 +532,8 @@
     position: absolute;
     font-family: "KGMissKindergarten";
     width: 250px;
-    margin-left: 40%;
-    margin-top: 40px !important;
+    margin-left: -40%;
+    margin-top: 10px !important;
   }
   .testimonial-text4 {
     font-size: 16px;
@@ -490,23 +542,23 @@
     position: absolute;
     font-family: "KGMissKindergarten";
     width: 250px;
-    margin-left: 40%;
-    margin-top: 40px !important;
+    margin-left: -40%;
+    margin-top: 10px !important;
   }
   .biketitle {
     font-family: "KGHAPPYSolid";
     color: white;
     font-size: 20px;
-    margin-top: -50px;
-    margin-left: 150px;
+    margin-top: -100px;
+    margin-left: 180px;
     position: absolute;
   }
   .biketitle1 {
     font-family: "KGHAPPYSolid";
     color: white;
     font-size: 20px;
-    margin-top: -50px;
-    margin-left: 150px;
+    margin-top: -100px;
+    margin-left: -150px;
     position: absolute;
     width: 100%;
   }
@@ -514,16 +566,16 @@
     font-family: "KGHAPPYSolid";
     color: white;
     font-size: 20px;
-    margin-top: -50px;
-    margin-left: 150px;
+    margin-top: -100px;
+    margin-left: -150px;
     position: absolute;
   }
   .biketitle3 {
     font-family: "KGHAPPYSolid";
     color: white;
     font-size: 20px;
-    margin-top: -50px;
-    margin-left: 150px;
+    margin-top: -100px;
+    margin-left: -150px;
     position: absolute;
     width: 100%;
   }

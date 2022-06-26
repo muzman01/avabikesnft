@@ -37,6 +37,15 @@
 }
 
 @media (max-width: 1000px) {
+  .team {
+    width: 100%;
+    background-color: #7c3469;
+    height: 100%;
+
+    border-radius: 40px;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+  }
   .img {
     margin: auto;
     justify-content: center;
@@ -57,6 +66,14 @@
   }
 }
 @media (max-width: 415px) {
+  .title {
+    padding: 40px !important;
+    color: white;
+    margin: auto;
+    margin-left: 22% !important;
+    margin-bottom: 50px;
+    font-family: "KGHAPPYSolid";
+  }
   .img {
     margin: auto;
     justify-content: center;

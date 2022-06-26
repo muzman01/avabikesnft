@@ -46,15 +46,7 @@ html {
   width: 1200px;
   margin: 0 auto;
 }
-.logo {
-  margin-left: -50px;
-}
-.MINT {
-  margin-left: 100px;
-}
-.Go_To_APP {
-  margin-right: -50px !important;
-}
+
 header {
   /* background-color: orangered; */
   height: 100vh;
@@ -203,6 +195,56 @@ section {
   padding: 96px 0;
   left: 50%;
 }
+@media (max-width: 1200px) {
+  header {
+    /* background-color: orangered; */
+    height: 100vh;
+    position: relative;
+
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0),
+        rgba(48, 34, 62, 0.682)
+      ),
+      url(../public/images/main-page-gif_high.png);
+
+    color: #fff;
+    object-fit: cover;
+    width: 100% !important;
+    animation: none;
+  }
+  .header-container {
+    align-items: center;
+    width: 100% !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  nav {
+    font-size: 20px;
+
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+  }
+  .container {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+  .header-container {
+    align-items: center;
+    width: 800px !important;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+}
 @media (max-width: 1000px) {
   header {
     /* background-color: orangered; */
@@ -300,11 +342,7 @@ section {
 
     transform: translate(-50%, -50%);
   }
-  .MINT {
-    position: absolute;
-    margin-top: 80px;
-    margin-left: 57%;
-  }
+
 }
 @media (max-width: 415px) {
   .BACKGROUND {
@@ -370,6 +408,9 @@ section {
     margin-top: 150px !important;
     width: 40%;
     margin: auto;
+  }
+  .header-container-inner img{
+    height: 150px !important;
   }
   .MINT {
     position: absolute;
