@@ -35,7 +35,7 @@ html {
 
 .container {
   margin: 0 auto;
-  width: 1200px;
+  width: 100%;
 }
 .containerb {
   margin: 0 auto;
@@ -45,6 +45,7 @@ html {
 .containerroad {
   width: 1200px;
   margin: 0 auto;
+
 }
 
 header {
@@ -212,6 +213,11 @@ section {
     width: 100% !important;
     animation: none;
   }
+  .containerroad {
+    width: 100%;
+    margin: 0 auto;
+  
+  }
   .header-container {
     align-items: center;
     width: 100% !important;
@@ -282,6 +288,8 @@ section {
   .container {
     margin: 0 auto;
     width: 100% !important;
+
+
   }
   .header-container {
     align-items: center;
@@ -293,8 +301,18 @@ section {
 
     transform: translate(-50%, -50%);
   }
+  .containerroad {
+    width: 100%;
+    margin: 0 auto;
+    
+  }
 }
 @media (max-width: 700px) {
+  .containerroad {
+    width: 100%;
+    margin: 0 auto;
+  
+  }
   header {
     /* background-color: orangered; */
     height: 100vh;
@@ -345,6 +363,11 @@ section {
 
 }
 @media (max-width: 415px) {
+  .containerroad {
+    width: 100%;
+    margin: 0 auto;
+  
+  }
   .BACKGROUND {
     position: absolute;
     align-items: center;
@@ -352,7 +375,7 @@ section {
     background-image: none;
     background-repeat: no-repeat;
     margin: auto;
-    width: 100%;
+    width: 100% !important;
     height: 5344px;
     z-index: 12;
     background-color: #1b0a32;
@@ -369,12 +392,12 @@ section {
       url(../public/images/main-page-gif_high.png);
     object-fit: contain;
     color: #fff;
-    width: 100% !important;
-    background-attachment: fixed;
+
+
   }
   .header-container {
     align-items: center;
-    width: 80% !important;
+    width: 100% !important;
     position: absolute;
 
     left: 50%;
@@ -396,7 +419,7 @@ section {
   }
   .header-container {
     align-items: center;
-    width: 800px !important;
+    width: 100% !important;
     position: absolute;
 
     left: 50%;
@@ -406,11 +429,12 @@ section {
   }
   .header-container-inner {
     margin-top: 150px !important;
-    width: 40%;
+    width: 100%;
     margin: auto;
   }
   .header-container-inner img{
     height: 150px !important;
+    width: 400px !important;
   }
   .MINT {
     position: absolute;

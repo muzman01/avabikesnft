@@ -54,6 +54,14 @@
     padding-left: 10px !important;
     padding-bottom: 100px !important;
   }
+  .title {
+    padding: 40px !important;
+    color: white;
+    margin: auto;
+    margin-left: 30% !important;
+    margin-bottom: 50px;
+    font-family: "KGHAPPYSolid";
+  }
 }
 @media (max-width: 700px) {
   .img {

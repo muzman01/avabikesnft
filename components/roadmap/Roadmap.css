@@ -129,40 +129,40 @@
   .roadmap1 h3 {
     position: absolute;
     color: white;
-    margin-left: 480px;
-    margin-top: -290px;
+    margin-left: 500px;
+    margin-top: -170px;
     font-family: "KGHAPPYSolid";
   }
   .roadmap1 ul {
     position: absolute;
     color: white;
     font-size: 16px;
-    width: 250px;
-    margin-left: 450px;
-    margin-top: -250px;
+    width: 350px;
+    margin-left: 650px;
+    margin-top: -290px;
     font-family: "KGHAPPYSolid";
   }
   .roadmap2 h3 {
     position: absolute;
     color: white;
-    margin-left: 480px;
-    margin-top: -270px;
+    margin-left: 500px;
+    margin-top: -170px;
     font-family: "KGHAPPYSolid";
   }
   .roadmap2 ul {
     position: absolute;
     color: white;
     font-size: 16px;
-    width: 250px;
-    margin-left: 450px;
-    margin-top: -230px;
+    width: 350px;
+    margin-left: 650px;
+    margin-top: -250px;
     font-family: "KGHAPPYSolid";
   }
   .roadmap3 h3 {
     position: absolute;
     color: white;
-    margin-left: 480px;
-    margin-top: -240px;
+    margin-left: 500px;
+    margin-top: -170px;
     font-family: "KGHAPPYSolid";
   }
   .roadmap3 ul {
@@ -170,7 +170,68 @@
     color: white;
     font-size: 16px;
     width: 250px;
-    margin-left: 450px;
+    margin-left: 650px;
+    margin-top: -220px;
+    font-family: "KGHAPPYSolid";
+  }
+  .roadmap2 img {
+    margin-left: -32px !important;
+  }
+  .roadmap3 img {
+    margin-left: -32px !important;
+  }
+}
+@media (max-width: 900px) {
+  .roadmap1,
+  .roadmap2,
+  .roadmap3 {
+    background-image: none;
+  }
+  .roadmap1 h3 {
+    position: absolute;
+    color: white;
+    margin-left: 530px;
+    margin-top: -270px;
+    font-family: "KGHAPPYSolid";
+  }
+  .roadmap1 ul {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    width: 350px;
+    margin-left: 480px;
+    margin-top: -190px;
+    font-family: "KGHAPPYSolid";
+  }
+  .roadmap2 h3 {
+    position: absolute;
+    color: white;
+    margin-left: 530px;
+    margin-top: -270px;
+    font-family: "KGHAPPYSolid";
+  }
+  .roadmap2 ul {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    width: 350px;
+    margin-left: 480px;
+    margin-top: -190px;
+    font-family: "KGHAPPYSolid";
+  }
+  .roadmap3 h3 {
+    position: absolute;
+    color: white;
+    margin-left: 530px;
+    margin-top: -270px;
+    font-family: "KGHAPPYSolid";
+  }
+  .roadmap3 ul {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    width: 250px;
+    margin-left: 480px;
     margin-top: -190px;
     font-family: "KGHAPPYSolid";
   }
@@ -268,34 +329,38 @@
 @media (max-width: 415px) {
   .roadmap1 {
     background-image: none;
+    width: 100% !important;
+ 
   }
   .roadmap1 img {
-   height: 250px !important;
-   margin-left: 10px !important;
+    height: 250px !important;
+    margin-left: 30px !important;
   }
   .mobilroad1 {
-    width: 400px;
+    width: 300px;
     height: 400px;
 
     margin: auto;
   }
   .roadmap2 {
     background-image: none;
-    width: 400px;
+    width: 100% !important;
+
     height: 100%;
-    margin-top: -50px !important;
+
   }
-  .roadmap2 img{
+  .roadmap2 img {
     height: 250px !important;
-   margin-left: -20px !important;
+    margin-left: -20px !important;
   }
   .roadmap3 {
     background-image: none;
-    width: 400px;
+    width: 100% !important;
+
     height: 100%;
-    margin-top: -50px !important;
+ 
   }
-  .roadmap3 img{
+  .roadmap3 img {
     height: 220px !important;
   }
   .roadmap1 h3 {
@@ -309,7 +374,7 @@
     position: absolute;
     color: white;
     font-size: 16px;
-    width: 250px;
+
     margin-left: 150px;
     margin-top: -380px;
     font-family: "KGHAPPYSolid";
@@ -325,7 +390,7 @@
     position: absolute;
     color: white;
     font-size: 16px;
-    width: 250px;
+
     margin-left: 150px;
     margin-top: -380px;
     font-family: "KGHAPPYSolid";
@@ -341,7 +406,7 @@
     position: absolute;
     color: white;
     font-size: 16px;
-    width: 250px;
+
     margin-left: 150px;
     margin-top: -380px;
     font-family: "KGHAPPYSolid";
@@ -352,15 +417,14 @@
   .roadmap3 img {
     margin-left: 32px !important;
   }
-  .title {
-    color: white;
-    margin: auto;
-    margin-left: -50px !important;
-    margin-bottom: 50px;
 
+  .containerroad h1 {
+    margin-left: 50px !important;
+    width: 300px !important;
+    color: white;
+
+    margin-bottom: 50px;
+    width: 300px !important;
     font-family: "KGHAPPYSolid";
-  }
-  .containerroad h1{
-    margin-left: -35px !important;
   }
 }
