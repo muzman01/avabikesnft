@@ -13,8 +13,11 @@
   background-size: 100% 1012px, 100% 1012px, 100% 1012px, 100% 1012px;
   background-position: left 2000px, left 3400px, right 1400px, right 800px,
     right 2400px;
-  margin: auto;
+
   width: 100%;
+  /* align-items: center;
+  justify-content: center; */
+  
   height: 5344px;
   z-index: 12;
   background-color: #1b0a32;
@@ -27,7 +30,6 @@
 }
 
 html {
-  font-family: kghappy;
   background-color: #1b0a32;
 }
 
@@ -38,6 +40,7 @@ html {
 .containerb {
   margin: 0 auto;
   width: 100%;
+  margin-left: 15% !important;
 }
 .containerroad {
   width: 1200px;
@@ -63,7 +66,6 @@ header {
   animation: animate 6s ease-in-out infinite;
 }
 
-
 @keyframes animate {
   0%,
   100% {
@@ -71,85 +73,85 @@ header {
         rgba(34, 34, 34, 0),
         rgba(48, 34, 62, 0.682)
       ),
-      url(../public/images/1.jpg);
-    height: 100vh;
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253451/avabikes/1_lx2o4b.jpg);
+    
   }
   9% {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0),
         rgba(48, 34, 62, 0.682)
       ),
-      url(../public/images/2.jpg);
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/11_n5u5eu.jpg);
   }
   18% {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0),
         rgba(48, 34, 62, 0.682)
       ),
-      url(../public/images/3.jpg);
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253450/avabikes/12_hbkudt.jpg);
   }
   27% {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0),
         rgba(48, 34, 62, 0.682)
       ),
-      url(../public/images/4.jpg);
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/7_qgilcs.jpg);
   }
   36% {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0),
         rgba(48, 34, 62, 0.682)
       ),
-      url(../public/images/5.jpg);
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253449/avabikes/8_wwvvns.jpg);
   }
   45% {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0),
         rgba(48, 34, 62, 0.682)
       ),
-      url(../public/images/6.jpg);
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/10_qpvk2e.jpg);
   }
   54% {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0),
         rgba(48, 34, 62, 0.682)
       ),
-      url(../public/images/7.jpg);
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/6_lyk7m0.jpg);
   }
   63% {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0),
         rgba(48, 34, 62, 0.682)
       ),
-      url(../public/images/8.jpg);
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253448/avabikes/9_qjzwom.jpg);
   }
   72% {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0),
         rgba(48, 34, 62, 0.682)
       ),
-      url(../public/images/9.jpg);
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/3_dsh2pr.jpg);
   }
   81% {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0),
         rgba(48, 34, 62, 0.682)
       ),
-      url(../public/images/10.jpg);
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253446/avabikes/2_ltnjlp.jpg);
   }
   90% {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0),
         rgba(48, 34, 62, 0.682)
       ),
-      url(../public/images/11.jpg);
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253445/avabikes/5_eotbk5.jpg);
   }
   99% {
     background-image: linear-gradient(
         rgba(34, 34, 34, 0),
         rgba(48, 34, 62, 0.682)
       ),
-      url(../public/images/12.jpg);
+      url(https://res.cloudinary.com/muzman/image/upload/v1656253445/avabikes/4_sbngnb.jpg);
   }
 }
 

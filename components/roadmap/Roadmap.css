@@ -14,7 +14,6 @@
   margin-left: 510px;
   margin-top: -160px;
   font-family: "KGHAPPYSolid";
-  
 }
 .roadmap1 ul {
   list-style-position: inside;
@@ -85,8 +84,8 @@
 }
 .title {
   color: white;
-  margin: auto;
-  margin-left: 35% !important;
+
+  margin-left: -13% !important;
   margin-bottom: 50px;
   font-family: "KGHAPPYSolid";
   font-size: 60px;
