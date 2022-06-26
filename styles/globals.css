@@ -289,7 +289,6 @@ section {
     margin: 0 auto;
     width: 100% !important;
 
-
   }
   .header-container {
     align-items: center;
@@ -304,7 +303,7 @@ section {
   .containerroad {
     width: 100%;
     margin: 0 auto;
-    
+
   }
 }
 @media (max-width: 700px) {
