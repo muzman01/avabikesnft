@@ -5,7 +5,8 @@
 .roadmap1 {
   background-image: url("../../public/images/rm1back.png");
   background-repeat: no-repeat;
-  background-position: 150px 10px;
+  background-position: 140px 10px;
+
 }
 .roadmap1 h3 {
   font-weight: 400;
@@ -103,9 +104,10 @@
     position: absolute;
     color: white;
     font-size: 18px;
-    width: 300px;
+    width: 400px;
     margin-left: 630px;
-    margin-top: -250px;
+    margin-top: -270px;
+
     font-family: "KGHAPPYSolid";
   }
   .roadmap2 h3 {
@@ -119,7 +121,8 @@
     position: absolute;
     color: white;
     font-size: 15px;
-    width: 300px;
+    width: 400px;
+   
     margin-left: 630px;
     margin-top: -250px;
     font-family: "KGHAPPYSolid";

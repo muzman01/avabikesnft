@@ -51,6 +51,7 @@ html {
 header {
   /* background-color: orangered; */
   height: 100vh;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -154,15 +155,17 @@ nav {
   display: flex;
   justify-content: space-between;
   padding-top: 32px;
+
 }
 
 .header-container {
   align-items: center;
-  width: 1200px;
+  width: 100%;
   position: absolute;
 
   left: 50%;
   top: 50%;
+
 
   transform: translate(-50%, -50%);
 }
@@ -235,6 +238,7 @@ section {
     display: flex;
     justify-content: space-between;
     padding-top: 32px;
+ 
   }
   .container {
     margin: 0 auto;
