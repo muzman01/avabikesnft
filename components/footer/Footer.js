@@ -63,7 +63,7 @@ function Footer() {
           </a>
         </div>
 
-        <div className="Go_To_APP" data-aos="fade-left">
+        <div className="" data-aos="fade-left">
           <a href="#home">
             <Image src={log} />
           </a>
