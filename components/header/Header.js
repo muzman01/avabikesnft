@@ -21,25 +21,18 @@ export default function Header() {
               <Image src={LOGO} />
             </a>
           </div>
-
-          <div className="MINT">
-            {" "}
-            <span className="mint_button">
-              <button href="#">MINT</button>
-            </span>
-          </div>
-          <div className="Go_To_APP">
-            <span className="go_to_app_button">
-              <button> Go To APP</button>
-            </span>
-          </div>
+          <a href="#" className="MINT btnmint">
+            <span className="mint_button">MINT</span>
+          </a>
+          <a href="#" className="MINT btnapp">
+            <span className="mint_button">Go To App</span>
+          </a>
         </nav>
 
         <div className="header-container">
           <div className="header-container-inner">
-         
-              <Image src={mettTheBikes}  width={1500} height={400} />
-       
+            <Image src={mettTheBikes} width={1500} height={400} />
+
             <p className="header_text">
               Paketlerini hızlıca teslim et,<br></br>
               <span>ödülleri toplamaya hemen başla!</span>

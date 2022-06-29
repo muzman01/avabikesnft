@@ -439,9 +439,5 @@ section {
     height: 150px !important;
     width: 400px !important;
   }
-  .MINT {
-    position: absolute;
-    margin-top: 80px;
-    margin-left: 57%;
-  }
+  
 }
