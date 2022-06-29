@@ -184,7 +184,7 @@
   top: calc(100% - 14px);
   left: calc(50% - 14px);
   width: 0;
-  height: 30px;
+  height: 31px;
   border: 2px solid;
   border-radius: 2px;
   animation: jumpInfinite 1.5s infinite;
