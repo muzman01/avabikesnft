@@ -181,7 +181,7 @@
 }
 .down-arrow {
   position: absolute;
-  top: 560px;
+  top: calc(100% - 14px);
   left: calc(50% - 14px);
   width: 0;
   height: 30px;
@@ -275,7 +275,7 @@
   }
   .down-arrow {
     position: absolute;
-    top: calc(100vh - 480px);
+    top: calc(100% - 14px);
     left: calc(50% - 14px);
     width: 0;
     height: 30px;
@@ -376,7 +376,7 @@
   }
   .down-arrow {
     position: absolute;
-    top: calc(100vh - 480px);
+    top: calc(100% - 14px);
     left: calc(50% - 14px);
     width: 0;
     height: 30px;
@@ -475,7 +475,7 @@
   }
   .down-arrow {
     position: absolute;
-    top: calc(100vh - 195px);
+    top: calc(100% - 14px);
     left: calc(50% - 14px);
     width: 0;
     height: 30px;
@@ -574,7 +574,7 @@
   }
   .down-arrow {
     position: absolute;
-    top: calc(100vh - 195px);
+    top: calc(100% - 14px);
     left: calc(50% - 14px);
     width: 0;
     height: 30px;
@@ -673,7 +673,7 @@
   }
   .down-arrow {
     position: absolute;
-    top: calc(100vh - 195px);
+    top: calc(100% - 14px);
     left: calc(50% - 14px);
     width: 0;
     height: 30px;
@@ -772,7 +772,7 @@
   }
   .down-arrow {
     position: absolute;
-    top: calc(100vh - 195px);
+    top: calc(100% - 14px);
     left: calc(50% - 14px);
     width: 0;
     height: 30px;
