@@ -59,6 +59,7 @@ header {
   color: #fff;
   animation: animate 6s ease-in-out infinite;
   animation-delay: -6s;
+  animation-play-state: inherit;
 }
 
 @keyframes animate {
