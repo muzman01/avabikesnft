@@ -22,16 +22,11 @@
   z-index: 12;
   background-color: #1b0a32;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
+html{
   background-color: #1b0a32;
 }
+
+
 
 .container {
   margin: 0 auto;
@@ -56,8 +51,8 @@ header {
   background-size: cover;
   position: relative;
   color: #fff;
-  animation: animate 6s ease-in-out infinite;
-  animation-delay: -6s;
+  animation: animate 24s ease-in-out infinite;
+
 }
 
 @keyframes animate {
@@ -907,7 +902,7 @@ section {
   }
   .header-container {
     align-items: center;
-    width: 800px !important;
+    width: 100% !important;
     position: absolute;
 
     left: 50%;
@@ -925,7 +920,7 @@ section {
     position: absolute;
     align-items: center;
     justify-content: center;
-    background-image: none;
+
     background-repeat: no-repeat;
     margin: auto;
     width: 100% !important;
@@ -936,14 +931,16 @@ section {
   header {
     /* background-color: orangered; */
     height: 100vh;
+    width: 100%;
     position: relative;
-
+    background-size: cover;
+    background-clip: border-box;
     background-image: linear-gradient(
         rgba(34, 34, 34, 0),
         rgba(48, 34, 62, 0.682)
       ),
       url(../public/images/main-page-gif_high.png);
-    object-fit: contain;
+    object-fit: cover;
     color: #fff;
   }
   .header-container {
@@ -959,7 +956,7 @@ section {
   nav {
     font-size: 20px;
 
-    width: 100% !important;
+    width: 60% !important;
     display: flex;
     justify-content: space-between;
     padding-top: 32px;
@@ -985,6 +982,7 @@ section {
   }
   .header-container-inner img {
     height: 150px !important;
+    
     width: 400px !important;
   }
 }

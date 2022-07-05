@@ -55,12 +55,7 @@ function Footer() {
           <a href="#">
             <Image src={dc} height={40} width={40} />
           </a>
-          <a href="#">
-            <Image src={tl} height={40} width={40} />
-          </a>
-          <a href="#">
-            <Image src={yt} height={40} width={40} />
-          </a>
+         
         </div>
 
         <div className="" data-aos="fade-left">

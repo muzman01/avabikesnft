@@ -865,6 +865,8 @@
   }
   .carousel {
     margin-left: -100px;
+
+    width: 100%;
   }
   .carousel1 {
     margin-left: -100px;

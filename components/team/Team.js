@@ -16,7 +16,7 @@ function Team() {
     <section className="container">
       <div className="team">
         <br></br>
-        <h1 className="title">TEAM</h1>
+        <h1 className="ttTeam">TEAM</h1>
         <div className="line">
           <div className="img">
             <Image

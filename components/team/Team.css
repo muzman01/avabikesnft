@@ -74,13 +74,15 @@
   }
 }
 @media (max-width: 415px) {
-  .title {
+  .ttTeam {
     padding: 40px !important;
     color: white;
     margin: auto;
     margin-left: 22% !important;
     margin-bottom: 50px;
     font-family: "KGHAPPYSolid";
+    width: 100px;
+
   }
   .img {
     margin: auto;

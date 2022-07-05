@@ -21,12 +21,12 @@ export default function Header() {
               <Image src={LOGO} />
             </a>
           </div>
-          <a href="#" className="MINT btnmint">
+          {/* <a href="#" className="MINT btnmint">
             <span className="mint_button">MINT</span>
           </a>
           <a href="#" className="MINT btnapp">
             <span className="mint_button">Go To App</span>
-          </a>
+          </a> */}
         </nav>
 
         <div className="header-container">
