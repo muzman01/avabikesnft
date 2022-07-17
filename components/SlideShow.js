@@ -1,86 +1,87 @@
-import React from 'react';
-import { Fade, Slide } from 'react-slideshow-image';
+import React from "react";
+import { Fade, Slide } from "react-slideshow-image";
 import Image from "next/image";
-import bg1 from '../assets/background/1.jpg';
-import bg2 from '../assets/background/2.jpg';
-import bg3 from '../assets/background/3.jpg';
-import bg4 from '../assets/background/4.jpg';
-import bg5 from '../assets/background/5.jpg';
-import bg6 from '../assets/background/6.jpg';
-import bg7 from '../assets/background/7.jpg';
-import bg8 from '../assets/background/8.jpg';
-import bg9 from '../assets/background/9.jpg';
+import bg1 from "../assets/background/1.jpg";
+import bg2 from "../assets/background/2.jpg";
+import bg3 from "../assets/background/3.jpg";
+import bg4 from "../assets/background/4.jpg";
+import bg5 from "../assets/background/5.jpg";
+import bg6 from "../assets/background/6.jpg";
+import bg7 from "../assets/background/7.jpg";
+import bg8 from "../assets/background/8.jpg";
+import bg9 from "../assets/background/9.jpg";
 const fadeImages = [
- {
-  url: bg1,
-  caption: 'Slide 1',
- },
- {
-  url: bg2,
-  caption: 'Slide 2',
- },
- {
-  url: bg3,
-  caption: 'Slide 3',
- },
- {
-  url: bg4,
-  caption: 'Slide 4',
- },
- {
-  url: bg5,
-  caption: 'Slide 5',
- },
- {
-  url: bg6,
-  caption: 'Slide 6',
- },
- {
-  url: bg7,
-  caption: 'Slide 7',
- },
- {
-  url: bg8,
-  caption: 'Slide 8',
- },
- {
-  url: bg9,
-  caption: 'Slide 9',
- },
+  {
+    url: bg1,
+    caption: "Slide 1",
+  },
+  {
+    url: bg2,
+    caption: "Slide 2",
+  },
+  {
+    url: bg3,
+    caption: "Slide 3",
+  },
+  {
+    url: bg4,
+    caption: "Slide 4",
+  },
+  {
+    url: bg5,
+    caption: "Slide 5",
+  },
+  {
+    url: bg6,
+    caption: "Slide 6",
+  },
+  {
+    url: bg7,
+    caption: "Slide 7",
+  },
+  {
+    url: bg8,
+    caption: "Slide 8",
+  },
+  {
+    url: bg9,
+    caption: "Slide 9",
+  },
 ];
 const properties = {
-    duration: 2000,
-    transitionDuration: 500,
-    infinite: true,
-    arrows: false,
-   };
+  duration: 2000,
+  transitionDuration: 500,
+  infinite: true,
+  arrows: false,
+};
 const Slideshow = () => {
-    return (
-   <div style={{zIndex:-1}}>
-         <Fade {...properties}>
+  return (
+    <div style={{ zIndex: -1 }}>
+      <Fade {...properties}>
         {fadeImages.map((fadeImage, index) => (
           <div
             className="each-fade"
             style={{
-              width: '100%',
-              height: '100%',
-            //   webkitAppRegion: 'drag',
+              width: "100wh",
+              height: "100vh",
+              //   webkitAppRegion: 'drag',
+              
             }}
             key={index}
           >
             <div
               className="image-container"
-              style={{ width: '100%', height: '100%' }}
+    
             >
               <Image
                 src={fadeImage.url}
-                style={{ width: '100%', height: '100%', objectFit: 'fill' }}
+                layout="responsive"
               />
             </div>
           </div>
         ))}
       </Fade>
-   </div>
-    )
-}
+    </div>
+  );
+};
 export default Slideshow;
