@@ -13,7 +13,7 @@ function Bikes() {
   }, []);
   return (
     <div className="bikehome">
-      <section id="bikes" className="container ">
+      <section id="bikes" className="container " >
         <div className="carousel">
           <div className="bike1 mbbike ">
             <Image src={bik1} width={1200} height={600} />

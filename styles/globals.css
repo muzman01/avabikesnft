@@ -913,9 +913,10 @@ section {
     background-repeat: no-repeat;
     margin: auto;
     width: 100% !important;
-    height: 7594px;
+    height: 100%;
     z-index: 12;
     background-color: #1b0a32;
+    
   }
   header {
     /* background-color: orangered; */

@@ -32,7 +32,7 @@ export default function Header() {
           </a> */}
         </nav>
 
-        <div className="header-container">
+        <div className="header-container" style={{padding:"10px"}}>
           <div className="header-container-inner">
             <Image src={mettTheBikes} width={1500} height={400} />
 
