@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <>
       <header id="home">
-       <div style={{zIndex:-1000,position:"absolute",width:"100vw",height:"100vh",opacity:"0.40"}}>
+       <div style={{zIndex:-1000,position:"absolute",width:"100%",height:"100vh",opacity:"0.40"}}>
        <Slideshow />
        </div>
         <nav className="container">

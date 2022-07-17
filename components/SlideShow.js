@@ -75,7 +75,8 @@ const Slideshow = () => {
             >
               <Image
                 src={fadeImage.url}
-                layout="responsive"
+                layout="fill"
+                objectFit="cover"
               />
             </div>
           </div>
