@@ -66,6 +66,7 @@ const Slideshow = () => {
               height: "100vh",
               //   webkitAppRegion: 'drag',
               
+              
             }}
             key={index}
           >

@@ -22,6 +22,7 @@
   height: 5344px;
   z-index: 12;
   background-color: #1b0a32;
+  overflow: hidden;
 }
 html{
   background-color: #1b0a32;
