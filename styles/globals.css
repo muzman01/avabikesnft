@@ -19,7 +19,7 @@
   /* align-items: center;
   justify-content: center; */
 
-  height: 5344px;
+  height: 5844px;
   z-index: 12;
   background-color: #1b0a32;
   overflow: hidden;
@@ -913,7 +913,7 @@ section {
     background-repeat: no-repeat;
     margin: auto;
     width: 100% !important;
-    height: 5344px;
+    height: 7594px;
     z-index: 12;
     background-color: #1b0a32;
   }
