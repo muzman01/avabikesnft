@@ -55,7 +55,7 @@ header {
 
 }
 
-@keyframes animate {
+/* @keyframes animate {
   0%,
   100% {
     background-image: linear-gradient(
@@ -701,7 +701,7 @@ header {
       ),
       url(https://res.cloudinary.com/muzman/image/upload/v1656253445/avabikes/4_sbngnb.jpg);
   }
-}
+} */
 
 nav {
   font-size: 20px;
@@ -757,11 +757,6 @@ section {
     height: 100vh;
     position: relative;
 
-    background-image: linear-gradient(
-        rgba(34, 34, 34, 0),
-        rgba(48, 34, 62, 0.682)
-      ),
-      url(../public/images/main-page-gif_high.png);
 
     color: #fff;
     object-fit: cover;
@@ -811,11 +806,7 @@ section {
     height: 100vh;
     position: relative;
 
-    background-image: linear-gradient(
-        rgba(34, 34, 34, 0),
-        rgba(48, 34, 62, 0.682)
-      ),
-      url(../public/images/main-page-gif_high.png);
+ 
 
     color: #fff;
     object-fit: cover;
@@ -868,11 +859,7 @@ section {
     height: 100vh;
     position: relative;
 
-    background-image: linear-gradient(
-        rgba(34, 34, 34, 0),
-        rgba(48, 34, 62, 0.682)
-      ),
-      url(../public/images/main-page-gif_high.png);
+
     object-fit: cover;
     color: #fff;
     width: 100% !important;
@@ -935,11 +922,7 @@ section {
     position: relative;
     background-size: cover;
     background-clip: border-box;
-    background-image: linear-gradient(
-        rgba(34, 34, 34, 0),
-        rgba(48, 34, 62, 0.682)
-      ),
-      url(../public/images/main-page-gif_high.png);
+
     object-fit: cover;
     color: #fff;
   }
