@@ -49,8 +49,8 @@ const fadeImages = [
   },
 ];
 const properties = {
-  duration: 2000,
-  transitionDuration: 500,
+  duration: 3000,
+  transitionDuration: 1500,
   infinite: true,
   arrows: false,
 };
