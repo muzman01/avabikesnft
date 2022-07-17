@@ -6,7 +6,7 @@ import AOS from "aos";
 import { useEffect } from "react";
 import LOGO from "../../public/images/LOGO.png";
 import mettTheBikes from "../../public/images/Meet the bikes.png";
-
+import Slideshow from "../SlideShow";
 export default function Header() {
   useEffect(() => {
     AOS.init();
@@ -15,6 +15,9 @@ export default function Header() {
   return (
     <>
       <header id="home">
+       <div style={{zIndex:-1000,position:"absolute",width:"100vw",height:"100vh",opacity:"0.50"}}>
+       <Slideshow />
+       </div>
         <nav className="container">
           <div className="logo">
             <a href="#">

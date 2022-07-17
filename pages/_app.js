@@ -8,6 +8,7 @@ import "../components/roadmap/Roadmap.css";
 import "../components/team/Team.css";
 import 'bootstrap/dist/css/bootstrap.css'
 import "aos/dist/aos.css";
+import 'react-slideshow-image/dist/styles.css'
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
