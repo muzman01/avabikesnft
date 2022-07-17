@@ -2,6 +2,9 @@
   font-family: kghappy;
   src: url("../public/fonts/KGHAPPY.ttf");
 }
+body{
+  padding: 8px;
+}
 .BACKGROUND {
   position: absolute;
   align-items: center;
