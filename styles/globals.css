@@ -754,6 +754,9 @@ section {
   left: 50%;
 }
 @media (max-width: 1200px) {
+  .BACKGROUND{
+    height: 6500px;
+  }
   header {
     /* background-color: orangered; */
     height: 100vh;
@@ -856,6 +859,27 @@ section {
     width: 100%;
     margin: 0 auto;
   }
+  .BACKGROUND {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../public/images/layer22.png"),
+      url("../public/images/layer23.png"), url("../public/images/ltop.png"),
+      url("../public/images/ltop.png"), url("../public/images/layerrigth2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 1012px, 100% 1012px, 100% 1012px, 100% 1012px;
+    background-position: left 2000px, left 3400px, right 1400px, right 800px,
+      right 2400px;
+  
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+  
+    height: 7644px;
+    z-index: 12;
+    background-color: #1b0a32;
+    overflow: hidden;
+  }
   header {
     /* background-color: orangered; */
     height: 100vh;
@@ -913,7 +937,7 @@ section {
     background-repeat: no-repeat;
     margin: auto;
     width: 100% !important;
-    height: 7594px;
+    height: 7794px;
     z-index: 12;
     background-color: #1b0a32;
     
